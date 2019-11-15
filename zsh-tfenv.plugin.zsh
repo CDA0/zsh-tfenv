@@ -4,7 +4,7 @@ GITHUB="https://github.com"
 
 _zsh_tfenv_install() {
     echo "Installing tfenv..."
-    git clone "${GITHUB}/tfutils/tfenv.git".         "${TFENV_HOME}"
+    git clone "${GITHUB}/tfutils/tfenv.git"         "${TFENV_HOME}"
 }
 
 _zsh_tfenv_load() {
