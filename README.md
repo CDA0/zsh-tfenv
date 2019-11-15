@@ -5,9 +5,6 @@
 ## Usage
 Once the plugin is installed, tfenv will be available.
 
-### Upgrade
-If you want to upgrade to the latest pyenv: `$ pyenv update`
-
 ## Installation
 
 ### Using [Antigen](https://github.com/zsh-users/antigen)
@@ -32,7 +29,7 @@ zget load cda0/zsh-tfenv
 ```
 
 ### As an [Oh My ZSH!](https://github.com/robbyrussell/oh-my-zsh) custom plugin
-Clone `zsh-pyenv` into your custom plugins repo and load as a plugin in your `.zshrc`
+Clone `zsh-tfenv` into your custom plugins repo and load as a plugin in your `.zshrc`
 
 ```shell
 git clone https://github.com/cda0/zsh-tfenv ~/.oh-my-zsh/custom/plugins/zsh-tfenv
